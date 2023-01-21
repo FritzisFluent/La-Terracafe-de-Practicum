@@ -1,0 +1,11 @@
+@font-face {
+  src: url(<linkrel="preconnect"href="https://fonts.googleapis.com"><linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin><linkhref="https://fonts.googleapis.com/css2?family=Inter&family=Istok+Web:wght@700&display=swap"rel="stylesheet">);
+
+  font-family: "Noto Serif", Times New Roman, sans-serif;
+}
+
+@font-face {
+  src: url(<linkrel="preconnect"href="https://fonts.googleapis.com"><linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin><linkhref="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"rel="stylesheet">);
+
+  font-family: "Inter", arial, serif;
+}
