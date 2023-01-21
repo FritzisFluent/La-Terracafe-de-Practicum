@@ -86,6 +86,7 @@
 .header__image {
   height: 568px;
   width: 646px;
+  position: absolute;
   top: 124px;
   right: 5px;
   z-index: 1;
