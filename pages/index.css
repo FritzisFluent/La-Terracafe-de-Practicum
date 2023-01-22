@@ -69,8 +69,6 @@
   max-width: 729px;
   margin-top: 202px;
   margin-right: 80px;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -80,7 +78,6 @@
   font-style: italic;
   font-family: Noto Serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -91,8 +88,6 @@
   margin-top: 28px;
   margin-right: 80px;
   font-family: Noto Serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -106,26 +101,28 @@
   z-index: 1;
 }
 
-.header__paragraph {
-  color: #6f6f6f;
-  text-decoration: none;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+.header__footer {
+  width: 100%;
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   bottom: 40px;
   left: 80px;
+  line-height: 0.2;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__address {
+.header__hours {
+  color: #6f6f6f;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header__paragraph-address {
+  margin-right: 80px;
   color: #6f6f6f;
   position: absolute;
-  bottom: 40px;
+  top: 40px;
   right: 80px;
   z-index: 2;
 }
