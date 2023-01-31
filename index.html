@@ -193,7 +193,7 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
 
-          <form class="reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label" for="name">Name*</label>
               <input
@@ -204,6 +204,7 @@
                 name="name"
                 required
               />
+
               <label class="form__label" for="number-of-guests"
                 >Number of guests*</label
               >
@@ -217,6 +218,7 @@
                 name="number"
                 required
               />
+
               <label class="form__label" for="datetime-local"
                 >Date & time*</label
               >
@@ -227,7 +229,7 @@
                 name="datetime-local"
                 required
               />
-              <label class="form__label" for="email">Your email*</label>
+              <label class="form__label" for="email"> Your email*</label>
               <input
                 type="email"
                 class="form__input"
@@ -236,10 +238,11 @@
                 name="email"
                 required
               />
+
               <button type="submit" class="form__button">Book a table</button>
 
               <label
-                class="form__label form__label_checkbox"
+                class="form__label .form__label_checkbox"
                 for="terms-of-use-checkbox"
               >
                 <input
@@ -270,8 +273,8 @@
               cups!
             </p>
           </div>
-          <div class="about__circle about__circle_animation_blurred"></div>
-          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred" />
+          <div class="about__circle" />
         </section>
       </main>
 

@@ -20,6 +20,11 @@
 }
 
 .reservation__form {
+  display: flex;
+  padding: 0;
+}
+
+.form {
   display: block;
   width: 385px;
   column-gap: 32px;
