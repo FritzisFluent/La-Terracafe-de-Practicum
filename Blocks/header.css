@@ -46,12 +46,13 @@
   right: 5px;
   z-index: 1;
 }
-/*header__fother elements are not aligning properly*/
+/*header__footer elements are not aligning properly*/
 
 .header__footer {
   width: 100%;
   position: absolute;
   bottom: 40px;
+  left: 0;
   line-height: 2px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +71,6 @@
 
 .header__paragraph_address {
   color: #6f6f6f;
-  top: 40px;
-  right: 80px;
+  margin-top: 40px;
   z-index: 2;
 }
