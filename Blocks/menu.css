@@ -1,6 +1,6 @@
 .menu {
-  background: #0a2750 url(../images/background_menu.svg) no-repeat center;
-  background-size: cover;
+  background: #0a2750 url(../images/background_menu.svg) no-repeat center /
+    cover;
   padding-top: 100px;
   padding-bottom: 100px;
   text-decoration-color: white;
@@ -11,6 +11,7 @@
   margin: 0 auto 24px;
   text-align: center;
   align-items: center;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -22,7 +23,7 @@
   margin: 0 auto 24px;
   align-items: center;
   text-align: center;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", arial, helvetica, serif;
   font-size: 20px;
   line-height: 30px;
   color: white;
@@ -30,50 +31,12 @@
 
 .menu__cards {
   display: flex;
-  column-gap: 100px;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 100px 100px;
-  position: relative;
-  padding-top: 0;
-  flex-basis: 100px;
-}
-
-.card {
-  background-color: rgba(#ff0000, green, blue, alpha);
-  width: 600px;
-}
-
-.card:nth-child(3) {
+  justify-content: center;
   margin-top: 100px;
-  margin-left: 400px;
-}
-
-.card__title {
-  margin-bottom: 32px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-}
-
-.card__list-item {
-  gap: 16px;
-  padding: 0;
-  margin: 0;
-  font-family: "Noto Serif";
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
-  max-width: 100%;
-}
-
-.card__item-size {
-  display: flex;
-  margin-bottom: 16px;
-}
-
-.card__list-divider {
-  border-bottom: 3px solid rgb(252, 252, 252);
-  flex-grow: 4;
+  margin-left: 100px;
+  position: relative;
+  flex-basis: 100px;
+  gap: 100px 100px;
+  max-width: 1300px;
 }

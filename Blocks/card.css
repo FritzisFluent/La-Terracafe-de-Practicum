@@ -1,0 +1,33 @@
+.card {
+  background-color: rgba(#ff0000, green, blue, alpha);
+  width: 600px;
+}
+
+.card__title {
+  margin-bottom: 32px;
+  font-family: "Inter", arial, helvetica, serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.card__list-item {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif", arial, helvetica, serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  max-width: 100%;
+}
+
+.card__item-size {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.card__list-divider {
+  border-bottom: 3px solid rgb(252, 252, 252);
+  flex-grow: 4;
+}

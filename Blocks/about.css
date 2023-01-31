@@ -23,18 +23,17 @@
 .about__title {
   margin: 0;
   width: 251px;
-  height: inherit;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   z-index: 1;
-  position: absolute;
-  top: 100px;
-  left: 80px;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 
 .about__content {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", arial, helvetica, serif;
   font-size: 20px;
   line-height: 30px;
   margin: 119px 80px 173px auto;
@@ -46,8 +45,8 @@
   margin-bottom: 20px;
 }
 
-.about__paragraph:last-of-type {
-  margin-top: 0;
+.about__paragraph:not(:last-of-type) {
+  margin-bottom: 16px;
 }
 
 .about__circle {

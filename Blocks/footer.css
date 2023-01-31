@@ -20,6 +20,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -41,6 +42,7 @@
 
 .footer__social-link {
   color: white;
+  font-family: "Inter", arial, helvetica, serif;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
@@ -50,7 +52,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition-timing-function: linear;
+  transition: 1s ease-in;
 }
 
 .footer__social-icon {
@@ -61,7 +63,7 @@
 
 .footer__copyright {
   margin: 0;
-  padding-top: 108px;
+  margin-top: 108px;
   padding-bottom: 60px;
   font-size: 16px;
   line-height: 20px;

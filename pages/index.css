@@ -1,18 +1,9 @@
-@import url(../Vendor/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../Blocks/header.css);
 @import url(../Blocks/menu.css);
 @import url(../Blocks/recipes.css);
 @import url(../Blocks/reservation.css);
+@import url(../Blocks/card.css);
 @import url(../Blocks/about.css);
 @import url(../Blocks/footer.css);
-
-.page {
-  font-family: "inter", Arial, sans-serif;
-  display: block;
-  min-width: 1100px;
-  max-width: 1600px;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0 auto;
-  overflow: hidden;
-}
+@import url(../Blocks/page.css);

@@ -1,6 +1,6 @@
 .header {
-  background: #ffffff url(../images/background_header.svg) no-repeat center;
-  background-size: cover;
+  background: #ffffff url(../images/background_header.svg) no-repeat center /
+    cover;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -8,7 +8,7 @@
   padding-left: 80px;
   padding-right: 80px;
   position: relative;
-  box-sizing: border-box;
+  border: 1px solid rgb(216, 216, 216);
 }
 
 .logo {
@@ -24,20 +24,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 124px;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 80px;
 }
 
 .nav__links {
   list-style: none;
-  position: absolute;
-  top: 30px;
-  right: 80px;
   display: flex;
-  align-items: center;
+  padding-left: 0;
   column-gap: 20px;
   z-index: 2;
-  font-family: Inter;
-  font-style: normal;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -59,14 +57,16 @@
   max-width: 729px;
   margin-top: 202px;
   margin-right: 80px;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
 }
 
 .header__span-accent {
+  display: flex;
+  font-family: "Noto Serif", arial, helvetica, serif;
   font-style: italic;
-  font-family: "serif";
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -76,7 +76,7 @@
   max-width: 683px;
   margin-top: 28px;
   margin-right: 80px;
-  font-family: "serif";
+  font-family: "Noto Serif", arial, helvetica, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -95,19 +95,20 @@
   position: absolute;
   bottom: 40px;
   left: 80px;
-  line-height: 0.2;
+  line-height: 2px;
   display: flex;
   justify-content: space-between;
 }
 
-.header__hours {
+.header__paragraphs {
   color: #6f6f6f;
   text-decoration: none;
+  font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-.header__paragraph-address {
+.header__paragraph_address {
   margin-right: 80px;
   color: #6f6f6f;
   position: absolute;
