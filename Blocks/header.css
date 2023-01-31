@@ -8,48 +8,6 @@
   padding-left: 80px;
   padding-right: 80px;
   position: relative;
-  border: 1px solid rgb(216, 216, 216);
-}
-
-.logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  bottom: 80px;
-  width: 125px;
-  height: 142px;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 30px;
-  margin-right: 80px;
-}
-
-.nav__links {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
-  column-gap: 20px;
-  z-index: 2;
-  font-family: "Inter", arial, helvetica, serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-  transition-duration: 1s;
-  transition-timing-function: linear;
 }
 
 .header__title {
@@ -88,15 +46,18 @@
   right: 5px;
   z-index: 1;
 }
+/*header__fother elements are not aligning properly*/
 
 .header__footer {
   width: 100%;
   position: absolute;
   bottom: 40px;
-  left: 80px;
   line-height: 2px;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .header__paragraphs {
@@ -108,9 +69,7 @@
 }
 
 .header__paragraph_address {
-  margin-right: 80px;
   color: #6f6f6f;
-  position: absolute;
   top: 40px;
   right: 80px;
   z-index: 2;
