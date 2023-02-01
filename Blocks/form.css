@@ -50,7 +50,7 @@
 .form__button {
   width: 100%;
   height: 60px;
-  margin-top: 32px;
+
   background-color: #2f80ed;
   color: #ffffff;
   border: none;
@@ -61,7 +61,6 @@
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
-  white-space: nowrap;
 }
 
 .form__input-checkbox {
