@@ -1,16 +1,15 @@
 .nav {
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  margin-top: 30px;
-  margin-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
 }
 
 .nav__links {
   list-style: none;
   display: flex;
   padding-left: 0;
-  column-gap: 20px;
+  gap: 20px;
   z-index: 2;
   font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;

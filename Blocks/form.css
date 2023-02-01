@@ -32,6 +32,9 @@
   line-height: 20px;
   color: #000000;
 }
+.form__label:nth-child(1) {
+  margin-top: 0;
+}
 
 .form__input {
   padding-left: 20px;
@@ -58,6 +61,7 @@
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .form__input-checkbox {
@@ -66,6 +70,7 @@
   background-image: url(../images/check.svg);
   width: 20px;
   height: 20px;
+  margin-top: 0;
 }
 
 .form__label_checkbox {

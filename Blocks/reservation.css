@@ -5,13 +5,13 @@
   align-items: center;
   background: #d9e7ff url(../images/background_reservation.svg) no-repeat center /
     cover;
-  padding: 0;
+  padding-top: 100px;
 }
 
 .reservation__title {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  margin: 0;
+  margin-bottom: 80px;
   font-family: "Inter", arial, helvetica, serif;
   font-weight: 500;
   font-size: 44px;
