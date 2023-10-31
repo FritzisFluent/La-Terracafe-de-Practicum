@@ -39,3 +39,26 @@
   gap: 100px 100px;
   max-width: 1300px;
 }
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .menu__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .menu__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .menu__cards {
+    margin-left: 20px;
+    gap: 40px 20px;
+  }
+}

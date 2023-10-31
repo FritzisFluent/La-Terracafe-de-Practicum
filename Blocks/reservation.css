@@ -17,3 +17,27 @@
   font-size: 44px;
   line-height: 52px;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .reservation {
+    padding-top: 60px; /* Adjust padding for tablets */
+  }
+
+  .reservation__title {
+    font-size: 32px; /* Reduce title font size for tablets */
+    margin-bottom: 40px;
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .reservation {
+    padding-top: 40px; /* Adjust padding for mobile */
+  }
+
+  .reservation__title {
+    font-size: 28px; /* Reduce title font size for mobile */
+    margin-bottom: 20px;
+  }
+}

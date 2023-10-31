@@ -1,3 +1,5 @@
+/* Default styles for desktop */
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -11,7 +13,7 @@
   padding-left: 0;
   gap: 20px;
   z-index: 2;
-  font-family: "Inter", arial, helvetica, serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -27,4 +29,42 @@
   color: #2f80ed;
   transition-duration: 1s;
   transition-timing-function: linear;
+}
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .nav {
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav__link {
+    margin-top: 10px;
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .nav {
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav__link {
+    margin-top: 10px;
+  }
 }

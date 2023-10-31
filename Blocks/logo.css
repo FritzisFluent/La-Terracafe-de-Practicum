@@ -6,3 +6,22 @@
   width: 125px;
   height: 142px;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .logo {
+    width: 100px; /* Reduce the logo size for tablets */
+    height: 114px;
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .logo {
+    top: 20px; /* Adjust the logo position for mobile */
+    left: 20px;
+    bottom: 40px;
+    width: 80px; /* Reduce the logo size for mobile */
+    height: 91px;
+  }
+}

@@ -48,3 +48,57 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .recipes {
+    padding: 50px; /* Adjust padding for tablets */
+  }
+  .recipes__title {
+    font-size: 36px; /* Reduce font size for tablets */
+    line-height: 42px;
+  }
+  .recipes__subtitle {
+    font-size: 18px; /* Reduce font size for tablets */
+    line-height: 24px;
+  }
+  .iframe {
+    width: 100%; /* Make videos full width on tablets */
+    height: auto;
+  }
+  .recipes__videos {
+    flex-direction: column; /* Stack videos vertically on tablets */
+    align-items: center;
+  }
+  .recipes__video-caption {
+    font-size: 18px; /* Reduce font size for tablets */
+    line-height: 24px;
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .recipes {
+    padding: 30px; /* Adjust padding for mobile */
+  }
+  .recipes__title {
+    font-size: 24px; /* Reduce font size for mobile */
+    line-height: 30px;
+  }
+  .recipes__subtitle {
+    font-size: 16px; /* Reduce font size for mobile */
+    line-height: 20px;
+  }
+  .iframe {
+    width: 100%; /* Make videos full width on mobile */
+    height: auto;
+  }
+  .recipes__videos {
+    flex-direction: column; /* Stack videos vertically on mobile */
+    align-items: center;
+  }
+  .recipes__video-caption {
+    font-size: 16px; /* Reduce font size for mobile */
+    line-height: 20px;
+  }
+}

@@ -1,3 +1,5 @@
+/* Default styles for desktop */
+
 .header {
   background: #ffffff url(../images/background_header.svg) no-repeat center /
     cover;
@@ -14,7 +16,7 @@
   max-width: 729px;
   margin-top: 202px;
   margin-right: 80px;
-  font-family: "Inter", arial, helvetica, serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -22,7 +24,7 @@
 
 .header__span-accent {
   display: flex;
-  font-family: "Noto Serif", arial, helvetica, serif;
+  font-family: "Noto Serif", Arial, Helvetica, serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -33,7 +35,7 @@
   max-width: 683px;
   margin-top: 28px;
   margin-right: 80px;
-  font-family: "Noto Serif", arial, helvetica, serif;
+  font-family: "Noto Serif", Arial, Helvetica, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -46,31 +48,73 @@
   right: 5px;
   z-index: 1;
 }
-/*header__footer elements are not aligning properly*/
 
-.header__footer {
-  width: 100%;
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  line-height: 2px;
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding-left: 80px;
-  padding-right: 80px;
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header__title {
+    font-size: 40px;
+    line-height: 48px;
+    margin-right: 40px;
+  }
+
+  .header__span-accent {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .header__description {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 40px;
+  }
+
+  .header__image {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    top: 80px;
+    right: 0;
+  }
 }
 
-.header__paragraphs {
-  color: #6f6f6f;
-  text-decoration: none;
-  font-family: "Inter", arial, helvetica, serif;
-  font-weight: 500;
-  font-size: 16px;
-}
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-.header__paragraph_address {
-  color: #6f6f6f;
-  margin-top: 40px;
-  z-index: 2;
+  .header__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 160px;
+    margin-right: 20px;
+  }
+
+  .header__span-accent {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .header__description {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .header__image {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    top: 60px;
+    right: 0;
+  }
 }

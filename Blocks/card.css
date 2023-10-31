@@ -31,3 +31,35 @@
   border-bottom: 3px solid rgb(252, 252, 252);
   flex-grow: 4;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .card {
+    width: 480px; /* Adjust the width for tablets */
+  }
+
+  .card__title {
+    font-size: 18px; /* Adjust the font size for tablets */
+    margin-bottom: 24px;
+  }
+
+  .card__list-divider {
+    border-bottom: 2px solid rgba(252, 252, 252, 0.8); /* Adjust the border size for tablets */
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .card {
+    width: 280px; /* Adjust the width for mobile */
+  }
+
+  .card__title {
+    font-size: 16px; /* Adjust the font size for mobile */
+    margin-bottom: 20px;
+  }
+
+  .card__list-divider {
+    border-bottom: 1px solid rgba(252, 252, 252, 0.8); /* Adjust the border size for mobile */
+  }
+}

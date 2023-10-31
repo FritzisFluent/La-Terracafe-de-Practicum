@@ -7,3 +7,19 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .page {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .page {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

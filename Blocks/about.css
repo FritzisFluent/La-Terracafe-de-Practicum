@@ -62,3 +62,34 @@
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
+
+/* Media query for tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .about {
+    padding: 60px; /* Adjust padding for tablets */
+  }
+
+  .about__content {
+    max-width: 100%; /* Make content width 100% for tablets */
+  }
+}
+
+/* Media query for mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .about {
+    padding: 40px; /* Adjust padding for mobile */
+  }
+
+  .about__title {
+    font-size: 32px; /* Reduce title font size for mobile */
+  }
+
+  .about__paragraph {
+    font-size: 16px; /* Reduce paragraph font size for mobile */
+  }
+
+  .about__circle {
+    display: block; /* Display the circles for mobile */
+    margin-top: 20px;
+  }
+}
